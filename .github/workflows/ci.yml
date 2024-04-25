@@ -6,7 +6,7 @@ on:
       - 'EXP-**'
 jobs:
   call-continuous-integration-reusable:
-    uses: rajub-71/github-reusable-workflows/.github/workflows/ci.yml@main
+    uses: raju-b71/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project_name: expense-backend
       npm_install: true
