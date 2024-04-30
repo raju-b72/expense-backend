@@ -5,3 +5,4 @@ jobs:
     uses: raju-b71/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project-name: expense-backend
+      vault_token: ${{ secrets.vault_token }}
