@@ -5,7 +5,7 @@ on:
       - "*"
 jobs:
   call-release-reusable:
-    uses: raghudevopsb78/github-reusable-workflows/.github/workflows/release.yml@main
+    uses: raju-b71/github-reusable-workflows/.github/workflows/release.yml@main
     with:
       project_name: expense-frontend
       npm_install: false
