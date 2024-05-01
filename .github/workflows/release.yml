@@ -9,6 +9,6 @@ jobs:
     with:
       project_name: expense-backend
       npm_install: true
-      release_archive_file: "*.js package.json schema VERSION node_modules"
+      release_archive_file: "*.js package.json schema VERSION"
     secrets: inherit
 #l
