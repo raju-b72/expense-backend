@@ -22,6 +22,7 @@
     "chai" : "latest",
     "chai-http" : "latest",
     "sinon" : "latest",
-    "chai-as-promised": "latest"
+    "chai-as-promised": "latest",
+    "newrelic": "latest"
   }
 }
