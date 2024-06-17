@@ -2,7 +2,7 @@ name: Continuous Integration
 on:  [push]
 jobs:
   call-continuous-integration-reusable:
-    uses: raju-b71/github-reusable-workflows/.github/workflows/ci.yml@main
+    uses: raju-b72/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project-name: expense-backend
       npm_install: true
